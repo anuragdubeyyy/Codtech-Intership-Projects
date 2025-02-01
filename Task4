@@ -1,5 +1,7 @@
 #CODE REFACTORING AND PERFORMANCE OPTIMIZATION
+
 //Project Overview
+
 //The open-source project we are refactoring is a JavaScript-based task manager application that allows users to manage tasks, add due dates, mark tasks as complete, and filter tasks. The codebase is written in vanilla JavaScript, and some of its key components include:
 //A task list display with filtering and sorting functionality.
 //Add and edit task features.
