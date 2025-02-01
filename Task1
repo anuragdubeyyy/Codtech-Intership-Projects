@@ -1,5 +1,5 @@
 #DEVELOP A STATIC WEBSITE FOR A DEVELOPERS PORTFOLIO USING HTML, CSS, AND JAVASCRIPT
-#HTML:-
+                                                #HTML:-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,8 +79,8 @@
 </body>
 </html>
 
-#CSS
-#HERE IS THE CODE IN CSS STYLE
+                                                                  #CSS
+                                                      #HERE IS THE CODE IN CSS STYLE
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +196,8 @@ footer {
   padding: 20px;
 }
 
-#JAVASCRIPT
+                                                                  #JAVASCRIPT
+
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
