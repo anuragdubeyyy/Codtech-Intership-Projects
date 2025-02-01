@@ -10,7 +10,6 @@ https://api.librarysystem.com/v1
 
 //Request Body:
 json
-Copy
 {
   "title": "Book Title",
   "author": "Author Name",
@@ -20,7 +19,6 @@ Copy
 }
 //Response (201 - Created):
 json
-Copy
 {
   "message": "Book created successfully",
   "book": {
@@ -36,7 +34,6 @@ Copy
 //GET /books
 //Response (200 - OK):
 json
-Copy
 [
   {
     "id": "book_id_1",
@@ -60,7 +57,6 @@ Copy
 //Response (200 - OK):
 
 json
-Copy
 {
   "id": "book_id",
   "title": "Book Title",
@@ -74,7 +70,6 @@ Copy
 
 //Request Body:
 json
-Copy
 {
   "title": "Updated Book Title",
   "author": "Updated Author",
@@ -84,7 +79,6 @@ Copy
 }
 //Response (200 - OK):
 json
-Copy
 {
   "message": "Book updated successfully",
   "book": {
@@ -101,7 +95,6 @@ Copy
 
 //Response (200 - OK):
 json
-Copy
 {
   "message": "Book deleted successfully"
 }
@@ -110,12 +103,10 @@ Copy
 //First, install necessary packages:
 
 bash
-Copy
 npm init -y
 npm install express mongoose body-parser
 //Set up the Server (server.js):
 //javascript
-Copy
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
